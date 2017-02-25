@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSGTechExercise", "SSGTechExercise\SSGTechExercise.csproj", "{359A54CB-7F02-4BA0-B632-2955FB0B4919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSGTechExercise.Tests", "SSGTechExercise.Tests\SSGTechExercise.Tests.csproj", "{3FB5EE04-4988-490D-AFDB-01680AF4716C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{359A54CB-7F02-4BA0-B632-2955FB0B4919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359A54CB-7F02-4BA0-B632-2955FB0B4919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359A54CB-7F02-4BA0-B632-2955FB0B4919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359A54CB-7F02-4BA0-B632-2955FB0B4919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB5EE04-4988-490D-AFDB-01680AF4716C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB5EE04-4988-490D-AFDB-01680AF4716C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB5EE04-4988-490D-AFDB-01680AF4716C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB5EE04-4988-490D-AFDB-01680AF4716C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

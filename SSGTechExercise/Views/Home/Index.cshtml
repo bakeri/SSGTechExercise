@@ -1,0 +1,67 @@
+﻿@model IEnumerable<SSGTechExercise.Models.Customer>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div>
+        <table id="t01">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Telephone</th>
+                    <th>Date of Birth</th>
+                    <th>Age</th>
+                </tr>
+
+            </thead>
+@foreach (var item in Model)
+{     <tr>
+        <td>@item.Fisrtname @item.LastName </td>
+        <td>@item.Telephone </td>
+        <td>@item.DOB.ToString("dd MMM yy") </td>
+        <td>@item.Age </td>
+    </tr>
+}
+        </table>
+        
+        <hr />
+    </div>
+
+<style>
+    table#t01 {
+        width: 100%;
+        background-color: #f1f1c1;
+    }
+
+        table#t01 tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        table#t01 tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        table#t01 th {
+            color: white;
+            background-color: blue;
+        }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 15px;
+    }
+</style> 
