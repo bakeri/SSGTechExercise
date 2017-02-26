@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using System.Text.RegularExpressions;
 
 namespace SSGTechExercise.Models
 {
+
     public class Customer
     {
         public int CustomerId { get; set; }
@@ -15,9 +17,14 @@ namespace SSGTechExercise.Models
         public string Fisrtname { get; set; }
         [Display(Name = "Last Name")]
         public string LastName { get; set; }
+
+        [Display(Name = "Telephone Number")]
+        [RegularExpression(@"^(\+\s?)?((?<!\+.*)\(\+?\d+([\s\-\.]?\d+)?\)|\d+)([\s\-\.]?(\(\d+([\s\-\.]?\d+)?\)|\d+))*(\s?(x|ext\.?)\s?\d+)?$", ErrorMessage = "Entered Telephone Number format is not valid.")]
         public string Telephone { get; set; }
+
         [Display(Name = "Date Of Birth")]
         public DateTime DOB { get; set; }
+
         [NotMapped]
         public DateTime Today
         {
