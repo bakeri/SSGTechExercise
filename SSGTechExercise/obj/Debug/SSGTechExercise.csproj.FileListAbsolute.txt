@@ -73,3 +73,5 @@ c:\users\ianba_000\documents\visual studio 2015\Projects\SSGTechExercise\SSGTech
 c:\users\ianba_000\documents\visual studio 2015\Projects\SSGTechExercise\SSGTechExercise\obj\Debug\SSGTechExercise.csprojResolveAssemblyReference.cache
 c:\users\ianba_000\documents\visual studio 2015\Projects\SSGTechExercise\SSGTechExercise\obj\Debug\SSGTechExercise.dll
 c:\users\ianba_000\documents\visual studio 2015\Projects\SSGTechExercise\SSGTechExercise\obj\Debug\SSGTechExercise.pdb
+c:\users\ianba_000\documents\visual studio 2015\Projects\SSGTechExercise\SSGTechExercise\obj\Debug\SSGTechExercise.Migrations.InitialCreate.resources
+c:\users\ianba_000\documents\visual studio 2015\Projects\SSGTechExercise\SSGTechExercise\obj\Debug\SSGTechExercise.csproj.GenerateResource.Cache

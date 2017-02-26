@@ -12,6 +12,7 @@
                     <th>Telephone</th>
                     <th>Date of Birth</th>
                     <th>Age</th>
+                    <th>Delete</th>
                 </tr>
 
             </thead>
@@ -21,6 +22,13 @@
         <td>@item.Telephone </td>
         <td>@item.DOB.ToString("dd MMM yy") </td>
         <td>@item.Age </td>
+          <td>
+              <form method="post">
+                  <button type="submit" class="btn btn-success">
+                      Delete
+                  </button>
+              </form>
+          </td>
     </tr>
 }
         </table>
