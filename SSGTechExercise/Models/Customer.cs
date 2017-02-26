@@ -23,6 +23,7 @@ namespace SSGTechExercise.Models
         public string Telephone { get; set; }
 
         [Display(Name = "Date Of Birth")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime DOB { get; set; }
 
         [NotMapped]
