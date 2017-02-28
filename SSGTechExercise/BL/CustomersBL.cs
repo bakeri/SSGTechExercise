@@ -14,18 +14,19 @@ namespace SSGTechExercise.BL
             Colour cl = new Colour();
             foreach (Customer cust  in lsCustomers)
             {
-                cust.Age = calculateAge(cust.DOB);
+                RealClock realClock = new RealClock();
+                cust.Age = calculateAge(cust.DOB,realClock);
               
                 cust.RowColour = cl.getRandomColour(cust.Fisrtname + cust.LastName);
             }
             return lsCustomers;
         }
 
-        private int calculateAge(DateTime DOB)
+        public int calculateAge(DateTime DOB,IDate datei)
         {
             int age;
-            age = DateTime.Now.Year - DOB.Year;
-            if (DateTime.Now.DayOfYear < DOB.DayOfYear) age--;
+            age = datei.Now.Year - DOB.Year;
+            if (datei.Now.DayOfYear < DOB.DayOfYear) age--;
             return age;
         }
        

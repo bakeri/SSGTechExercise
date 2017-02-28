@@ -181,6 +181,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="BL\Colour.cs" />
     <Compile Include="BL\CustomersBL.cs" />
+    <Compile Include="BL\RealClock.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -188,6 +189,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="BL\IDate.cs" />
     <Compile Include="Migrations\201702251230055_InitialCreate.cs" />
     <Compile Include="Migrations\201702251230055_InitialCreate.Designer.cs">
       <DependentUpon>201702251230055_InitialCreate.cs</DependentUpon>

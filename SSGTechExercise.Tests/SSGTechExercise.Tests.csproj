@@ -82,7 +82,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLTests\BLAgeTests.cs" />
     <Compile Include="BLTests\BLColourTests.cs" />
+    <Compile Include="BLTests\TestClock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
