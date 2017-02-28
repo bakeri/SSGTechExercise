@@ -12,9 +12,9 @@ namespace SSGTechExercise.BL
             CustomersContext _db = new CustomersContext();
             List<Customer> lsCustomers = _db.Customer.ToList();
             Colour cl = new Colour();
+            RealClock realClock = new RealClock();
             foreach (Customer cust  in lsCustomers)
             {
-                RealClock realClock = new RealClock();
                 cust.Age = calculateAge(cust.DOB,realClock);
               
                 cust.RowColour = cl.getRandomColour(cust.Fisrtname + cust.LastName);
